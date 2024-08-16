@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color:white; */
+}
+body{
+    scroll-margin: 80px;
+}
+nav{
+    /* position:fixed; */
+    
+    /* border-bottom: 1px solid gray; */
+    box-shadow: 0px 2px 10px red;
+    /* text-shadow: 5px 5px 10px red; */
+
+}
+.navi img{
+    height: 50px;
+}
+.navi{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100vw;
+    position:fixed;
+    top: 0;
+    /* margin-left: 20px; */
+}
+.navtext{
+    width: 40vw;
+    display: flex;
+    justify-content: space-between;
+}
+.navtext a{
+    color: white;
+    text-decoration: none;
+    border-bottom: 4px solid black;
+    color: green;
+    /* font-size: 18px; */
+}
+.navtext a:hover{
+    border-bottom: 4px solid brown;
+}
+
+main{
+    background-image: url(back.png);
+    width: 100vw;
+    height: 100vh;
+    background-size:cover ;
+    background-position-x: center;
+    background-attachment: fixed;
+}
+
+/* hero section */
+.hero{
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* text-align: center; */
+    justify-content: center;
+    margin-left:10vw;
+}
+.hero h1{
+    font-size: 50px;
+    
+}
+.hero h1 span {
+    font-size: 60px;
+    color: brown;
+}
+.hero h2{
+    font-size: 35px;
+}
+
+
+/* about */
+#about img{
+     width: 300px;
+     height: 500px;
+     border-radius: 300px;
+     /* box-shadow: 2px 2px 5px rgb(212, 73, 73); */
+
+}
+
+.aboutcon h1{
+    margin-bottom: 10px;
+    border-bottom:2px solid black ;
+}
+#about{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    min-height: 100vh;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    padding: 20px;
+    
+}
+
+.abouttext{
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    
+    /* gap: 100px; */
+    /* justify-content:space-around; */
+}
+
+.btns{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.skihead{
+    border-bottom: 2px solid red;
+}
+.skill{
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+
+button{
+    
+    background-color: black;
+    color: red;
+    border: none;
+    border-bottom: 2px solid black;
+}
+button:hover{
+    border-bottom: 2px solid red;
+}
+p{
+    color: white;
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* Services */
+
+.ser,.pro{
+    color: white;
+    line-height: 1.5;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+    background-color: black;
+}
+.ser h1,.pro h1{
+    margin-bottom: 20px;
+    text-shadow: 3px 3px 5px red;
+    color: green;
+}
+.h1{
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.card{
+width: 300px;
+background-color: rgb(38, 37, 37);
+padding: 20px;
+border-radius: 10px;
+box-shadow: 3px 3px 10px red;
+}
+
+
+/* contact */
+#conta{
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.con{
+    display: flex;
+    /* width: 60vw; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    
+    
+}
